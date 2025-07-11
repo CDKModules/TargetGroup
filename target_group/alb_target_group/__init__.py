@@ -1,1 +1,1 @@
-from alb_target_group import TargetGroupStack
+from target_group.alb_target_group.alb_target_group import TargetGroupStack
