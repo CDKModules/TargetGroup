@@ -3,8 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="alb-target-group",
     version="0.1.0",
-    packages=find_packages(where="."),
-    include_package_data=True,
+    packages=find_packages(),
     install_requires=[
         "aws-cdk-lib>=2.0.0",
         "constructs>=10.0.0",
